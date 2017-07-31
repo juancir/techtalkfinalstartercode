@@ -1,18 +1,28 @@
-body{
-    background-color: black;
-    color: red;
-}
+/*body{*/
+/*    background-color: black;*/
+/*    color: red;*/
+/*}*/
 li{
     list-style-type: none;
 }
 #hobby{
     margin: 0 auto;
     text-align: center;
-    
 }
-.floating-box {
-    float: left;
-    width: 425px;
-    height: 600px;
-    margin: 10px;
+img{
+    height: 200px;
+    width:200px;
+}
+header p{
+    padding:  0 20px;
+    margin: 0;
+}
+header{
+    padding: 20px;
+} 
+header .row{
+    align-items: center;
+}
+header nav{
+    justify-content: flex-end;
 }
